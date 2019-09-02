@@ -1,5 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .item-nav {
   margin-right: 5% !important;
+}
+
+.nav-sec {
+  margin: 10px !important;
+}
+
+.nav-link:hover {
+  color: #fa5757 !important;
 }
 
 .login-btn {

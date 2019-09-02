@@ -1,14 +1,28 @@
 $soft-color: hsl(0, 94%, 66%);
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
+body{
 
-
+}
 
 
 
 .item-nav{
     margin-right: 5%!important;
+}
+
+.nav-sec{
+    margin:10px !important;
+}
+.nav-link:hover{
+    color: $soft-color !important;
 }
 .login-btn{
     background: $soft-color;
