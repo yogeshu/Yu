@@ -11,7 +11,6 @@ $soft-color: hsl(0, 94%, 66%);
 body{
 font-size: 18px;
 font-family: 'Courier New', Courier, monospace;
-overflow:hidden;
 }
 
 
@@ -52,4 +51,33 @@ overflow:hidden;
 }
 .btn-btn{
     margin-left:10%;
+}
+
+
+
+// feature
+#feature{
+    margin-top: 5%;
+}
+.feature-para{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+.nav-tabs{
+    margin:0% 15%;
+}
+.feature-area{
+    margin-top: 5%;
+}
+.feature-intro{
+    font-size: 33px;
+    font-weight: 400;
+}
+.nav-tabs .nav-link .active{
+    border-bottom: 1px  $soft-color; 
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-bottom: 1px solid $soft-color !important;
 }
