@@ -33,15 +33,19 @@ body {
 }
 
 .header-line {
-  font-size: 28px;
+  font-size: 40px;
   margin-top: 10%;
-  margin-left: 15%;
+  margin-left: 10%;
   font-weight: bold;
   line-height: 1em;
 }
 
 .header-line-para {
-  font-size: 10px;
-  margin-left: 15%;
+  font-size: 12px;
+  margin-left: 10%;
+}
+
+.btn-btn {
+  margin-left: 10%;
 }
 /*# sourceMappingURL=index.css.map */
