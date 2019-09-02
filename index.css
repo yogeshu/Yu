@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+body {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
 .item-nav {
   margin-right: 5% !important;
 }
@@ -20,5 +26,22 @@
 .login-btn {
   background: #fa5757;
   color: #fff !important;
+}
+
+#header {
+  margin-top: 5%;
+}
+
+.header-line {
+  font-size: 28px;
+  margin-top: 10%;
+  margin-left: 15%;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.header-line-para {
+  font-size: 10px;
+  margin-left: 15%;
 }
 /*# sourceMappingURL=index.css.map */

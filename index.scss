@@ -9,7 +9,9 @@ $soft-color: hsl(0, 94%, 66%);
 
 
 body{
-
+font-size: 18px;
+font-family: 'Courier New', Courier, monospace;
+overflow:hidden;
 }
 
 
@@ -27,4 +29,24 @@ body{
 .login-btn{
     background: $soft-color;
     color: #fff !important;
+}
+
+// header
+#header{
+    margin-top: 5%;
+}
+
+.header-line {
+    
+    font-size: 28px; 
+    margin-top:10%;
+    margin-left: 15%;
+    font-weight: bold;
+    line-height: 1em;
+
+}
+.header-line-para{
+    font-size: 10px;
+    margin-left: 15%;
+
 }
