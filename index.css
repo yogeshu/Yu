@@ -8,6 +8,7 @@
 body {
   font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
+  overflow-x: hidden;
 }
 
 .item-nav {
@@ -76,7 +77,41 @@ body {
   border-bottom: 1px #fa5757;
 }
 
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:select {
   border-bottom: 1px solid #fa5757 !important;
+}
+
+#Extension {
+  margin-top: 5%;
+}
+
+.Extension-para {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.google-logo {
+  width: 30%;
+  text-align: center;
+  height: 30%;
+}
+
+.Extension-text {
+  font-size: 10px;
+}
+
+.Extension-btn {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-Extension {
+  border-top: 1px dotted #ccc;
+}
+
+.card-Extension {
+  -webkit-box-shadow: 4px 4px 4px -4px #ccc;
+          box-shadow: 4px 4px 4px -4px #ccc;
 }
 /*# sourceMappingURL=index.css.map */

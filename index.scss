@@ -1,5 +1,6 @@
 $soft-color: hsl(0, 94%, 66%);
- 
+$Soft-Blue: hsl(231, 69%, 60%);
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ $soft-color: hsl(0, 94%, 66%);
 body{
 font-size: 18px;
 font-family: 'Courier New', Courier, monospace;
+overflow-x: hidden;
 }
 
 
@@ -78,6 +80,49 @@ font-family: 'Courier New', Courier, monospace;
 .nav-tabs .nav-link .active{
     border-bottom: 1px  $soft-color; 
 }
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:select {
     border-bottom: 1px solid $soft-color !important;
+}
+
+
+
+
+
+
+
+
+
+// ex
+#Extension {
+    margin-top: 5%;
+}
+.Extension-para{
+ 
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5em;
+
+}
+
+
+.google-logo{
+    width: 30%;
+    text-align: center;
+    height: 30%;
+}
+
+.Extension-text{
+    font-size: 10px;
+}
+
+.Extension-btn{
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-Extension{
+border-top: 1px dotted #ccc;
+}
+
+.card-Extension{
+    box-shadow: 4px 4px 4px -4px #ccc;
 }
